@@ -13,6 +13,8 @@ Verified October 8, 2026 (America/Los_Angeles).
 
 ## Blog integration
 
-Lovable project 8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4 updated only src/lib/spark-genie-series.ts. Saved app commit: 5c4625d50642b3a039447caa661d40437306ac25. Each chapter links to its exact main-branch companion script; chapter 7 also links to the workspace review guide. README chapter map links back to canonical pfplabs.ai chapter URLs and authenticated preview-host admin review pages.
+The initial companion integration was saved in Lovable commit 5c4625d50642b3a039447caa661d40437306ac25. Each chapter links to its exact companion script; chapter 7 also links to the workspace review guide.
 
-Lovable's database inspection found all eight records marked published despite adminPreviewOnly flags; it restored all eight records to draft with publish_at/published_at null. It reported a clean build and browser checks covering all eight private chapter links, public feed/sitemap exclusion and blocked public preview access. Saved source and one-file diff were inspected independently through the connector. No deployment was requested or performed and app dependencies were unchanged.
+The subsequent user-authorized release and discoverability update is saved in Lovable commit aebd01d2be7bf55d1244f5abbb805a776af77f9e. All eight Spark publication records are now published, with no scheduled release. New pages are prepared at [Spark / Databricks](https://pfplabs.ai/blog/spark) and [Learning series](https://pfplabs.ai/blog/series), with a blog banner, track switch, ordered chapter cards and reading progress. Other draft series were not released.
+
+Lovable reported successful logged-out browser checks for all eight articles, chapter navigation, companion links, mobile layout, reading progress, RSS and sitemap. The saved code diff was inspected through the connector. Production deployment of the updated landing pages remains pending because automatic approval review rejected the deployment action; public production availability has not been confirmed. App dependencies were unchanged.
