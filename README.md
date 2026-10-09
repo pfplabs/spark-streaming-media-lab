@@ -1,6 +1,10 @@
 # Spark for Streaming Media Analytics
 
-Runnable companion to the eight PFP Labs draft chapters. All viewers, titles, and events are synthetic. The blog chapters remain unpublished and require admin access. Each row links to the intended public chapter URL and a private review page; the public URL will not display the draft before release.
+Runnable companion to the eight-part PFP Labs series. All viewers, titles, and events are synthetic.
+
+[Explore the Spark / Databricks series](https://pfplabs.ai/blog/spark) · [Browse all learning series](https://pfplabs.ai/blog/series)
+
+The eight chapters are marked published in PFP Labs. The new series landing pages are prepared in Lovable; deployment of the updated site is pending. The chapter map below uses public article URLs.
 
 ## Local setup
 
@@ -27,16 +31,16 @@ First use downloads Delta JVM artifacts from Maven (internet required). Spark 3.
 
 ## Chapter map
 
-| Part | Example | PFP Labs draft |
+| Part | Example | PFP Labs article |
 | --- | --- | --- |
-| 1 | [01_mental_model](chapters/01_mental_model.py) | [Chapter 1](https://pfplabs.ai/blog/pyspark-mental-model-streaming-media-analytics) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/pyspark-mental-model-streaming-media-analytics) |
-| 2 | [02_ingestion](chapters/02_ingestion.py) | [Chapter 2](https://pfplabs.ai/blog/pyspark-schemas-ingestion-delta-bronze) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/pyspark-schemas-ingestion-delta-bronze) |
-| 3 | [03_sessions](chapters/03_sessions.py) | [Chapter 3](https://pfplabs.ai/blog/pyspark-window-functions-viewer-sessions) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/pyspark-window-functions-viewer-sessions) |
-| 4 | [04_performance](chapters/04_performance.py) | [Chapter 4](https://pfplabs.ai/blog/spark-performance-shuffles-partitions-broadcast) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/spark-performance-shuffles-partitions-broadcast) |
-| 5 | [05_streaming](chapters/05_streaming.py) | [Chapter 5](https://pfplabs.ai/blog/spark-structured-streaming-watermarks-concurrent-viewers) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/spark-structured-streaming-watermarks-concurrent-viewers) |
-| 6 | [06_quality](chapters/06_quality.py) | [Chapter 6](https://pfplabs.ai/blog/pyspark-data-quality-testing-pipelines) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/pyspark-data-quality-testing-pipelines) |
-| 7 | [07_genie_code](chapters/07_genie_code.py) | [Chapter 7](https://pfplabs.ai/blog/databricks-genie-code-pyspark-review-workflow) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/databricks-genie-code-pyspark-review-workflow) |
-| 8 | [08_capstone](chapters/08_capstone.py) | [Chapter 8](https://pfplabs.ai/blog/spark-medallion-pipeline-streaming-media-capstone) · [Admin review](https://id-preview--8a137d1f-c1b0-4dc9-a0b4-a735ec35e1b4.lovable.app/admin/drafts/spark-medallion-pipeline-streaming-media-capstone) |
+| 1 | [01_mental_model](chapters/01_mental_model.py) | [Chapter 1](https://pfplabs.ai/blog/pyspark-mental-model-streaming-media-analytics) |
+| 2 | [02_ingestion](chapters/02_ingestion.py) | [Chapter 2](https://pfplabs.ai/blog/pyspark-schemas-ingestion-delta-bronze) |
+| 3 | [03_sessions](chapters/03_sessions.py) | [Chapter 3](https://pfplabs.ai/blog/pyspark-window-functions-viewer-sessions) |
+| 4 | [04_performance](chapters/04_performance.py) | [Chapter 4](https://pfplabs.ai/blog/spark-performance-shuffles-partitions-broadcast) |
+| 5 | [05_streaming](chapters/05_streaming.py) | [Chapter 5](https://pfplabs.ai/blog/spark-structured-streaming-watermarks-concurrent-viewers) |
+| 6 | [06_quality](chapters/06_quality.py) | [Chapter 6](https://pfplabs.ai/blog/pyspark-data-quality-testing-pipelines) |
+| 7 | [07_genie_code](chapters/07_genie_code.py) | [Chapter 7](https://pfplabs.ai/blog/databricks-genie-code-pyspark-review-workflow) |
+| 8 | [08_capstone](chapters/08_capstone.py) | [Chapter 8](https://pfplabs.ai/blog/spark-medallion-pipeline-streaming-media-capstone) |
 
 ## Contracts and exercises
 
